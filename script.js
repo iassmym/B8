@@ -1,12 +1,17 @@
 var nome= "tabs";
 
 //bloco de codigos( // codigo )
-function exibirIdade(){
+// valor que irei receber
+
+//     parametro
+function exibirIdade(parametro){
     //variavel de escopo local
-    var idade  = 24
-    console.log(idade);
+    //var idade  = 24;
+    console.log(parametro);
     
 }
 
 console.log(nome);
-exibirIdade()
+// argumento 
+// valor que eu irei passar
+exibirIdade(iasmym);
