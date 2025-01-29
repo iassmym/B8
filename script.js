@@ -1,31 +1,27 @@
-var nome= "tabs";
+// Função que soma dois números
+function soma(num1, num2) {
+    return num1 + num2;
+}
 
-//bloco de codigos( // codigo )
-// valor que irei receber
+// Função que exibe o resultado usando o alert
+function exibir(resultado) {
+    alert("O total da soma é: " + resultado);
+}
 
-//     parametro
-function exibirIdade(parametro){
-    //variavel de escopo local
-    //var idade  = 24;
-    console.log(parametro);
+// Função principal que interliga as duas funções
+function iniciar() {
+    // Solicita ao usuário para inserir dois números
+    let numero1 = parseFloat(prompt("Digite o primeiro número:"));
+    let numero2 = parseFloat(prompt("Digite o segundo número:"));
     
+    // Chama a função soma e passa os números como parâmetros
+    let resultado = soma(numero1, numero2);
+    
+    // Chama a função exibir e passa o resultado da soma
+    exibir(resultado);
 }
 
-console.log(nome);
-// argumento 
-// valor que eu irei passar
-exibirIdade(iasmym);
+// Inicia a execução do código
+iniciar();
 
-// porque utilizar parametros
-// para utilizar a mesma funçao para valores diferentes
-
-
-function somar(numero1,numero2){
-
-    console.log(numero1 + numero2)
-
-}
-
-somar(10,7);
-somar(17, 89);
 
